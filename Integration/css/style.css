@@ -1,0 +1,45 @@
+/* 62.5% for a easier use of rem
+   for example 1.6rem; = 16px; */
+html{
+  font-size: 62.5%;
+}
+
+body{
+  /* waiting for font-family (windows user :cry) */
+}
+
+/* Header */
+.header{
+  
+}
+
+.header-title{
+  font-size: 11rem;
+}
+
+.header-paragraph{
+  font-size: 1.4rem;
+}
+
+/* Articles */
+.articles-title{
+  font-size: 8rem;
+}
+
+.articles-button{
+  text-decoration: none;
+}
+
+/* Tweets */
+.tweets-title{
+  font-size: 8rem;
+}
+
+/* Partners */
+.partner-title{
+  font-size: 8rem;
+}
+
+.partner-copyrights-paragraph{
+  font-size: 0.9rem;
+}
