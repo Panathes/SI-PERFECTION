@@ -4,6 +4,10 @@
 
 // mixins
 @import './mixins/forsize';
+@import './conponent/articles';
+@import './conponent/header';
+@import './conponent/partner';
+@import './conponent/tweets';
 
 * {
   box-sizing: border-box;
