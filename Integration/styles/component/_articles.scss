@@ -3,7 +3,9 @@
   width: 85%;
   margin: 0 auto;
   &-container{}
-  &-titleContainer{}
+  &-titleContainer{
+    margin: 70px 0 40px 0;
+  }
   &-mainTitle{
     font-size: 38px;
   }
@@ -37,12 +39,20 @@
       margin: 0px 0 0 100px;
     }
   }
-  &-imgContent{}
-}
-
-.--nophone{
-  display: none;
-  @include for-size('tablet-portrait-up'){
-    display: block;
+  &-imgContentcontainer{
+    margin: 0 -15px;
+    @include for-size('tablet-portrait-up'){
+      margin: 0 15px;
+    }
+  }
+  &-contentImg{
+    border-radius:15px ;
+  }
+  &-imgTitle{
+    position: absolute;
+    z-index: 2;
+  }
+  &-imgDesc{
+    position: absolute;
   }
 }
