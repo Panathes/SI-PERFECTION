@@ -56,3 +56,21 @@ INSERT INTO
 VALUES
    (NULL, "air france", "ouep", "ouep")
 ;
+
+CREATE TABLE `message` (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `type` VARCHAR(110),
+    `entreprise` VARCHAR(110),
+    `name` VARCHAR(110),
+    `email` VARCHAR(110),
+    `phone` INT,
+    `message` VARCHAR(3000),
+    PRIMARY KEY (`id`)
+    );
+
+INSERT INTO
+    `message`
+    (`id`, `type`, `entreprise`, `name`, `email`, `phone`, `message`)
+VALUES
+   (NULL, "air france", "ouep", "ouep", "hey", 2, "ouaip")
+;
