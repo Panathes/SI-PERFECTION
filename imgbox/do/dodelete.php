@@ -1,11 +1,11 @@
 <?php
 
-require_once "../db.php";
+require_once "../../db.php";
 
 $_GET['id'];
 
 $sql = "DELETE FROM
-          `article`
+          `imgbox`
         WHERE
           `id` = :id
         ;";
@@ -13,4 +13,4 @@ $sql = "DELETE FROM
 $stmt = $conn->prepare($sql);
 $stmt->bindValue(':id', $_POST['id']);
 $stmt->execute();
-header('Location: ../admin.php');
+header('Location: ../img_admin.php');

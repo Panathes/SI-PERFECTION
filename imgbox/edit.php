@@ -1,6 +1,6 @@
 <?php
 
-require_once "db.php";
+require_once "../db.php";
 
 if (!isset($_GET['id'])) {
     header('Location:admin.php');
@@ -10,15 +10,11 @@ if (!isset($_GET['id'])) {
 
 $sql = "SELECT
           `id`,
-          `title`,
-          `subtitle`,
           `img`,
-          `text`,
-          `label`,
-          `logo`,
-          `tag`
+          `title`,
+          `author`
         FROM
-          article
+          imgbox
         WHERE
           id = :id
 ;";
@@ -37,23 +33,17 @@ if (!isset($row['title'])) {
 ?>
 
 
-<h3><a href="admin.php">go back</a></h3>
+<h3><a href="img_admin.php">go back</a></h3>
 
 
 <form action="do/doedit.php" method="post">
     <input type="hidden" name="id" value="<?=$_GET['id']?>">
+    <p>Image's Link :</p>
+    <input type="text" name='img' value="<?=$row["img"]?>">
     <p>Title :</p>
     <input type="text" name='title' value="<?=$row["title"]?>">
-    <p>Subtitle :</p>
-    <input type="text" name='subtitle' value="<?=$row["subtitle"]?>">
-    <p>Image's link :</p>
-    <input type="text" name='img' value="<?=$row["img"]?>">
-    <p>Text :</p>
-    <textarea name="text"  cols="30" rows="10"><?=$row["text"]?></textarea>
-    <p>Signature :</p>
-    <input type="text" name='label' value="<?=$row["label"]?>">
-    <p>Logo's link :</p>
-    <input type="text" name='logo' value="<?=$row["logo"]?>">
+    <p>Author :</p>
+    <input type="text" name='author' value="<?=$row["author"]?>"
     <hr>
     <input type="submit">
 </form>

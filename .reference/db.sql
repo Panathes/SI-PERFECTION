@@ -25,3 +25,19 @@ INSERT INTO
 VALUES
    (NULL, "avion", "vroom", "osef", "osef", "air france", "osef")
 ;
+
+
+CREATE TABLE `imgbox` (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `img` VARCHAR(110),
+    `title` VARCHAR(110),
+    `author` VARCHAR(110),
+    PRIMARY KEY (`id`)
+    );
+
+INSERT INTO
+    `imgbox`
+    (`id`, `img`, `title`, `author`)
+VALUES
+   (NULL, "url", "mer", "michel")
+;

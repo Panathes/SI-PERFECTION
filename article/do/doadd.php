@@ -1,6 +1,6 @@
 <?php
 
-require_once "../db.php";
+require_once "../../db.php";
 
 if (!isset($_POST['title']) || !isset($_POST['subtitle']) || !isset($_POST['img']) || !isset($_POST['text']) || !isset($_POST['label']) ||  !isset($_POST['logo']) || !isset($_POST['tag']) || $_POST['title']==="" || $_POST['subtitle']==="" || $_POST['img']==="" || $_POST['text']==="" || $_POST['label']==="" || $_POST['logo']==="") {
     header('Location: ../admin.php?error_input');
@@ -25,4 +25,4 @@ $stmt->bindValue(':logo', $_POST['logo']);
 $stmt->bindValue(':tag', $_POST['tag']);
 $stmt->execute();
 
-header('Location: ../admin.php');
+header('Location: ../article_admin.php');
