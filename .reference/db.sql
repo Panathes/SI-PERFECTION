@@ -10,21 +10,12 @@ CREATE TABLE `article` (
     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
     `title` VARCHAR(110),
     `subtitle` VARCHAR(110),
-    `img` VARCHAR(110),
+    `img` VARCHAR(350),
     `text` VARCHAR(3000),
-    `label` VARCHAR(50),
-    `logo` VARCHAR(110),
     `tag` VARCHAR(50),
+    `compagnie` INT,
     PRIMARY KEY (`id`)
     );
-
-
-INSERT INTO
-    `article`
-    (`id`, `title`, `subtitle`, `img`, `text`, `label`, `logo`)
-VALUES
-   (NULL, "avion", "vroom", "osef", "osef", "air france", "osef")
-;
 
 
 CREATE TABLE `imgbox` (
@@ -35,12 +26,6 @@ CREATE TABLE `imgbox` (
     PRIMARY KEY (`id`)
     );
 
-INSERT INTO
-    `imgbox`
-    (`id`, `img`, `title`, `author`)
-VALUES
-   (NULL, "url", "mer", "michel")
-;
 
 CREATE TABLE `partenaire` (
     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -50,12 +35,7 @@ CREATE TABLE `partenaire` (
     PRIMARY KEY (`id`)
     );
 
-INSERT INTO
-    `partenaire`
-    (`id`, `name`, `logo`, `alt`)
-VALUES
-   (NULL, "air france", "ouep", "ouep")
-;
+
 
 CREATE TABLE `message` (
     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -68,9 +48,10 @@ CREATE TABLE `message` (
     PRIMARY KEY (`id`)
     );
 
-INSERT INTO
-    `message`
-    (`id`, `type`, `entreprise`, `name`, `email`, `phone`, `message`)
-VALUES
-   (NULL, "air france", "ouep", "ouep", "hey", 2, "ouaip")
-;
+CREATE TABLE `compagnie` (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(110),
+    `label` VARCHAR(110),
+    `logo` VARCHAR(110),
+    PRIMARY KEY (`id`)
+    );

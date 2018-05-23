@@ -5,3 +5,5 @@
 <a href="imgbox/img_admin.php"><h3>IMAGE BOX</h3></a>
 
 <a href="partenaire/partenaire_admin.php"><h3>PARTENAIRE</h3></a>
+
+<a href="compagnie/compagnie_admin.php"><h3>COMPAGNIE</h3></a>

@@ -39,6 +39,25 @@ $stmt->execute();
 <h2>Add</h2>
 
 <form action="do/doadd.php" enctype="multipart/form-data" method="post">
+    <select name="compagnie">
+        <?php
+        $sqlcompagnie = "SELECT
+        `id`,
+        `name`
+        FROM
+        `compagnie`
+        ;";
+
+        $stmt = $conn->prepare($sqlcompagnie);
+        $stmt->execute();
+        while (false !== $row2 = $stmt->fetch(PDO::FETCH_ASSOC)) :?>
+
+        ?>
+        <option value="<?=$row2["id"]?>"><?=$row2["name"]?></option>
+        <?php endwhile ?>
+
+    </select>
+    </br>
     <input type="text" name="title" placeholder="title">
     </br>
     <input type="text" name="subtitle" placeholder="subtitle">
@@ -46,10 +65,6 @@ $stmt->execute();
     <input type="text" name="img" placeholder="image's link">
     </br>
     <textarea name="text" cols="30" rows="10" placeholder="text"></textarea>
-    </br>
-    <input type="text" name="label" placeholder="label">
-    </br>
-    <input type="text" name="logo" placeholder="logo's link">
     </br>
     <select name="tag">
         <option value="hôtel">Hôtel</option>

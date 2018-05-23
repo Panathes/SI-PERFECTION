@@ -11,58 +11,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../1année2voyage/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../1année2voyage/message.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-              <folding>
-                <marker date="1527078733000" expanded="true" signature="36:159" ph="SELECT `id`,... message" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send_message.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../1année2voyage/send_message.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding>
-                <marker date="1527078299000" expanded="true" signature="380:522" ph="INSERT INTO `message`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article_admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../1année2voyage/article/article_admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
-              <folding>
-                <marker date="1527078696000" expanded="true" signature="39:92" ph="SELECT `id`,... article" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="db.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../1année2voyage/.reference/db.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+            <state relative-caret-position="225">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_admin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../1année2voyage/article/article_admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+              <folding>
+                <marker date="1527086847000" expanded="true" signature="39:92" ph="SELECT `id`,... article" />
+                <marker date="1527086847000" expanded="true" signature="883:951" ph="SELECT `id`,... compagnie" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doadd.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../1année2voyage/article/do/doadd.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <marker date="1527086980000" expanded="true" signature="348:484" ph="INSERT INTO `article`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../1année2voyage/article/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="49" column="75" lean-forward="false" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
+              <folding>
+                <marker date="1527087522000" expanded="true" signature="119:297" ph="SELECT `id`,... article" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doedit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../1année2voyage/article/do/doedit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <marker date="1527087792000" expanded="true" signature="320:507" ph="UPDATE `arti... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,10 +89,7 @@
         <option value="$PROJECT_DIR$/../1année2voyage/do/dodelete.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/article/admin.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/main_admin.php" />
-        <option value="$PROJECT_DIR$/../1année2voyage/article/edit.php" />
-        <option value="$PROJECT_DIR$/../1année2voyage/article/do/doedit.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/article/do/dodelete.php" />
-        <option value="$PROJECT_DIR$/../1année2voyage/article/do/doadd.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/imgbox/img_admin.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/imgbox/do/doadd.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/imgbox/edit.php" />
@@ -98,17 +98,29 @@
         <option value="$PROJECT_DIR$/../1année2voyage/imgbox/delete.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/article/delete.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/partenaire/partenaire_admin.php" />
-        <option value="$PROJECT_DIR$/../1année2voyage/main.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/partenaire/do/doadd.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/partenaire/do/doedit.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/partenaire/edit.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/partenaire/delete.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/partenaire/do/dodelete.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/contact.php" />
-        <option value="$PROJECT_DIR$/../1année2voyage/.reference/db.sql" />
         <option value="$PROJECT_DIR$/../1année2voyage/send_message.php" />
-        <option value="$PROJECT_DIR$/../1année2voyage/article/article_admin.php" />
         <option value="$PROJECT_DIR$/../1année2voyage/message.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/article.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/article_admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/do/dodelete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/main.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/compagnie_admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/edit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/do/doadd.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/do/doedit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/delete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/.reference/db.sql" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/article_admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/do/doadd.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/article.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/edit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/do/doedit.php" />
       </list>
     </option>
   </component>
@@ -147,11 +159,6 @@
               <item name="1année2voyage" type="b2602c69:ProjectViewProjectNode" />
               <item name="1année2voyage" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="1année2voyage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1année2voyage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="article" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -187,18 +194,17 @@
       <updated>1526991793050</updated>
       <workItem from="1526991796251" duration="2064000" />
       <workItem from="1526994360019" duration="4881000" />
-      <workItem from="1527063301881" duration="7487000" />
+      <workItem from="1527063301881" duration="12558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14432000" />
+    <option name="totallyTimeSpent" value="19503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25681493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25681493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -357,26 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/do/doedit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <marker date="1527065045000" expanded="true" signature="420:663" ph="UPDATE `arti... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <marker date="1527064987000" expanded="true" signature="119:334" ph="SELECT `id`,... article" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../1année2voyage/article/do/dodelete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -444,14 +430,6 @@
           <folding>
             <marker date="1527066641000" expanded="true" signature="59:124" ph="DELETE FROM " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../1année2voyage/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,40 +511,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/do/doadd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <marker date="1527065097000" expanded="true" signature="449:592" ph="INSERT INTO `article`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../1année2voyage/.reference/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/article_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <marker date="1527078696000" expanded="true" signature="39:92" ph="SELECT `id`,... article" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../1année2voyage/send_message.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding>
             <marker date="1527078299000" expanded="true" signature="380:522" ph="INSERT INTO `message`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding>
+            <marker date="1527078733000" expanded="true" signature="36:159" ph="SELECT `id`,... message" />
           </folding>
         </state>
       </provider>
@@ -579,12 +539,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../1année2voyage/message.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/article_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
-            <marker date="1527078733000" expanded="true" signature="36:159" ph="SELECT `id`,... message" />
+            <marker date="1527085064000" expanded="true" signature="117:336" ph="SELECT `id`,... compagnie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding>
+            <marker date="1527085470000" expanded="true" signature="119:261" ph="SELECT `id`,... article" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/do/doadd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1527085599000" expanded="true" signature="268:347" ph="INSERT INTO `compagnie`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/do/doedit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <marker date="1527085684000" expanded="true" signature="264:420" ph="UPDATE `comp... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <marker date="1527085944000" expanded="true" signature="118:223" ph="SELECT `id`,... compagnie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/do/dodelete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <marker date="1527085317000" expanded="true" signature="59:127" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/compagnie_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <marker date="1527085317000" expanded="true" signature="39:93" ph="SELECT `id`,... compagnie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding>
+            <marker date="1527087221000" expanded="true" signature="117:320" ph="SELECT `id`,... article" />
+            <marker date="1527087221000" expanded="true" signature="732:876" ph="SELECT `id`,... compagnie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/do/doedit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <marker date="1527087792000" expanded="true" signature="320:507" ph="UPDATE `arti... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="49" column="75" lean-forward="false" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
+          <folding>
+            <marker date="1527087522000" expanded="true" signature="119:297" ph="SELECT `id`,... article" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/do/doadd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1527086980000" expanded="true" signature="348:484" ph="INSERT INTO `article`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/.reference/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/article_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <marker date="1527086847000" expanded="true" signature="39:92" ph="SELECT `id`,... article" />
+            <marker date="1527086847000" expanded="true" signature="883:951" ph="SELECT `id`,... compagnie" />
           </folding>
         </state>
       </provider>

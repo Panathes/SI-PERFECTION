@@ -14,8 +14,6 @@ $sql = "SELECT
           `subtitle`,
           `img`,
           `text`,
-          `label`,
-          `logo`,
           `tag`
         FROM
           article
@@ -50,10 +48,6 @@ if (!isset($row['title'])) {
     <input type="text" name='img' value="<?=$row["img"]?>">
     <p>Text :</p>
     <textarea name="text"  cols="30" rows="10"><?=$row["text"]?></textarea>
-    <p>Signature :</p>
-    <input type="text" name='label' value="<?=$row["label"]?>">
-    <p>Logo's link :</p>
-    <input type="text" name='logo' value="<?=$row["logo"]?>">
     <hr>
     <input type="submit">
 </form>
