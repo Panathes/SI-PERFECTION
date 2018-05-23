@@ -41,3 +41,18 @@ INSERT INTO
 VALUES
    (NULL, "url", "mer", "michel")
 ;
+
+CREATE TABLE `partenaire` (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(110),
+    `logo` VARCHAR(110),
+    `alt` VARCHAR(110),
+    PRIMARY KEY (`id`)
+    );
+
+INSERT INTO
+    `partenaire`
+    (`id`, `name`, `logo`, `alt`)
+VALUES
+   (NULL, "air france", "ouep", "ouep")
+;
