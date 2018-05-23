@@ -5,8 +5,8 @@
 // mixins
 @import './mixins/forsize';
 
-@import './conponent/homepage';
-@import './conponent/articles';
+@import './component/homepage';
+@import './component/articles';
 
 
 * {
@@ -14,12 +14,9 @@
 }
 
 html {
-  width: 100%;
-  font-size: 62.5%;
+  text-decoration: none;
 }
 
 body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  width: 100%;
-  font-size: 62.5%;
 }
