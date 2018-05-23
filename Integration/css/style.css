@@ -69,20 +69,48 @@ table {
   font-size: 8rem;
 }
 
+.articles {
+  width: 85%;
+  margin: 0 auto;
+}
+.articles-mainTitle {
+  font-size: 38px;
+}
+.articles-titleDecor {
+  width: 65px;
+  height: 4px;
+  background-color: black;
+  margin-bottom: 26px;
+}
+.articles-tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.articles-tagTitles {
+  color: #BEBEBE;
+  font-size: 13px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border-radius: 13px;
+  background-color: #EEEEEE;
+  padding: 6px;
+}
+.articles-stroke {
+  width: 100%;
+  height: 1px;
+  background-color: #E3E3E3;
+  margin-bottom: 18px;
+}
 * {
   box-sizing: border-box;
 }
 
 html {
-  width: 100%;
-  font-size: 62.5%;
+  text-decoration: none;
 }
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  width: 100%;
-  font-size: 62.5%;
-  background-color: blue;
 }
 
 /*# sourceMappingURL=../css/style.css.map */

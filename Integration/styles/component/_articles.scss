@@ -1,0 +1,38 @@
+
+.articles{
+  width: 85%;
+  margin: 0 auto;
+  &-container{}
+  &-titleContainer{}
+  &-mainTitle{
+    font-size: 38px;
+  }
+  &-titleDecor{
+    width: 65px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 26px;
+  }
+  &-tagContainer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-tagTitles{
+    color: #BEBEBE;
+    font-size: 13px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    background-color: #EEEEEE;
+    padding: 6px;
+  }
+  &-stroke{
+    width: 100%;
+    height: 1px;
+    background-color: #E3E3E3;
+    margin-bottom: 18px;
+  }
+  &-imgContainer{
+  }
+  &-imgContent{}
+}
