@@ -1,6 +1,6 @@
 <?php
 
-include "db.php";
+include "../db.php";
 
 
 
@@ -15,7 +15,7 @@ $stmt = $conn->prepare($sql);
 $stmt->execute();
 
 ?>
-<h2><a href="index.php">retour à l'index</a></h2>
+<h2><a href="../main.php">home</a></h2>
 <table border="1">
     <tr>
         <th>ID</th>

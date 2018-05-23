@@ -1,6 +1,6 @@
 <?php
 
-require_once "db.php";
+require_once "../db.php";
 
 if (!isset($_GET['id'])) {
     header('Location:admin.php');
@@ -34,4 +34,4 @@ if (!isset($row['title'])) {
     <input type="hidden" name="id" value="<?=$row['id']?>">
     <input type="submit" value="Oui, je le suis">
 </form>
-<h3><a href="admin.php">non oops !!!</a></h3>
+<h3><a href="article_admin.php">non oops !!!</a></h3>
