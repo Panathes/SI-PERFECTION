@@ -4,10 +4,10 @@
 
 // mixins
 @import './mixins/forsize';
+
+@import './conponent/homepage';
 @import './conponent/articles';
-@import './conponent/header';
-@import './conponent/partner';
-@import './conponent/tweets';
+
 
 * {
   box-sizing: border-box;
@@ -20,4 +20,6 @@ html {
 
 body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-size: 62.5%;
 }

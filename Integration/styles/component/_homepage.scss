@@ -1,0 +1,39 @@
+.header{
+
+  &-title{
+    font-size: 11rem;
+
+  }
+
+  &-paragraph{
+    font-size: 1.4rem;
+  }
+}
+
+.articles{
+
+  &-title{
+    font-size: 8rem;
+  }
+}
+
+
+.partner{
+  display: flex;
+  justify-content: space-around;
+
+  &-title{
+    font-size: 8rem;
+  }
+
+  &-copyrights-paragraph{
+    font-size: 0.9rem;
+  }
+}
+
+.tweets{
+
+  &-title{
+    font-size: 8rem;
+  }
+}
