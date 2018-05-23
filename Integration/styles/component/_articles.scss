@@ -33,6 +33,16 @@
     margin-bottom: 18px;
   }
   &-imgContainer{
+    @include for-size('tablet-portrait-up'){
+      margin: 0px 0 0 100px;
+    }
   }
   &-imgContent{}
+}
+
+.--nophone{
+  display: none;
+  @include for-size('tablet-portrait-up'){
+    display: block;
+  }
 }
