@@ -8,21 +8,23 @@ $sql = "SELECT
     `id`,
     `name`
       FROM
-    `partenaire`
+    `hundred`
     ;";
 
 $stmt = $conn->prepare($sql);
 $stmt->execute();
 
 ?>
+
 <style media="screen">
 <?php include '../backoffice.css'; ?>
 </style>
+
 <h2><a href="../main.php">home</a></h2>
 <table border="1">
     <tr>
         <th>ID</th>
-        <th>partenaire</th>
+        <th>nom</th>
         <th>modifier</th>
         <th>supprimer</th>
     </tr>
@@ -39,14 +41,18 @@ $stmt->execute();
     <?php endwhile ?>
 </table>
 
-<h2>Add Partenaire</h2>
+<h2>Add</h2>
 
 <form action="do/doadd.php" enctype="multipart/form-data" method="post">
-    <input type="text" name="name" placeholder="partenaire">
+    <input type="text" name="name" placeholder="nom de l'établissement">
     </br>
-    <input type="text" name="logo" placeholder="logo">
+    <input type="text" name="adresse" placeholder="adresse">
     </br>
-    <input type="text" name="alt" placeholder="logo's alt">
+    <input class="classement" type="number" min="1" max="100" step="1" name="classement" placeholder="classement">
+    </br>
+    <input type="tel" name="phone" placeholder="numéro de téléphone">
+    </br>
+    <input type="text" name="price" placeholder="prix moyen">
     </br>
     <input type="submit">
 </form>
