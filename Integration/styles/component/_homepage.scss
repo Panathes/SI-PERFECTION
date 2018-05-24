@@ -83,10 +83,45 @@
     height: 0.4rem;
     width: 77px;
   };
+}
 
-  .partners{
-    background: red;
-    height: 14rem;
-    width: 100%;
+.partners{
+  background-color: #F7F7F7;
+  height: 14rem;
+  width: 100%;
+  &-title{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+  }
+  &-container{
+    margin-bottom: 2.5rem;
+    padding: 0 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &-aeroports{
+      height: 3.4rem;
+      width: 6rem;
+    }
+    &-fujifilm{
+      height: 1.5rem;
+      width: 7.7rem;
+    }
+    &-nikon{
+      height: 3.9rem;
+      width: 3.9rem;
+    }
+  }
+  &-copyrights{
+
+    border-top: 0.001rem solid #d3d3d3;
+    &-content{
+      padding-top: 0.5rem;
+      display: flex;
+      justify-content: center;
+      font-size: 0.9rem;
+    }
   }
 }
