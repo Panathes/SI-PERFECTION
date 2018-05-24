@@ -7,9 +7,38 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Contact</title>
   <link rel="stylesheet" href="../../css/style.css">
+  <script src="../../../node_modules/jquery/dist/jquery.js"></script>
 </head>
 
 <body>
+  <div class="menuDesktop">
+    <nav class="navDesktop">
+      <ul class="ulDesktop">
+        <li class="liDesktop"><a href="../../index.html" class="liLinks">Accueil</a></li>
+        <li class="liDesktop"><a href="./articles.html" class="liLinks">Article</a></li>
+        <li class="liDesktop"><a href="" class="liLinks">Top 100</a></li>
+        <li class="liDesktop"><a href="./contact.html" class="liLinks">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="burgermenuContainer --phoneTablet">
+    <div class="button_container" id="toggle">
+      <span class="top --pos"></span>
+      <span class="middle --pos"></span>
+      <span class="bottom --pos"></span>
+    </div>
+
+    <div class="overlay" id="overlay">
+      <nav class="overlay-menu --nav">
+        <ul>
+          <li><a class="container-a" href="../../index.html">Accueil</a></li>
+          <li><a class="container-a" href="./articles.html">Article</a></li>
+          <li><a class="container-a" href="#">Top 100</a></li>
+          <li><a class="container-a" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
   <div class="contact">
     <div class="contact-titlesContainer">
       <h3 class="contact-titles">Contact</h3>
