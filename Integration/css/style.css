@@ -235,10 +235,38 @@ table {
     background-color: black;
     height: 0.4rem;
     width: 77px; }
-  .tweets .partners {
-    background: red;
-    height: 14rem;
-    width: 100%; }
+
+.partners {
+  background-color: #F7F7F7;
+  height: 14rem;
+  width: 100%; }
+  .partners-title {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem; }
+  .partners-container {
+    margin-bottom: 2.5rem;
+    padding: 0 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .partners-container-aeroports {
+      height: 3.4rem;
+      width: 6rem; }
+    .partners-container-fujifilm {
+      height: 1.5rem;
+      width: 7.7rem; }
+    .partners-container-nikon {
+      height: 3.9rem;
+      width: 3.9rem; }
+  .partners-copyrights {
+    border-top: 0.001rem solid #d3d3d3; }
+    .partners-copyrights-content {
+      padding-top: 0.5rem;
+      display: flex;
+      justify-content: center;
+      font-size: 0.9rem; }
 
 .articles {
   width: 85%;
