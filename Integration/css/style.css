@@ -196,8 +196,51 @@ table {
   }
   100% {
     opacity: 1;
-    left: 0;
-  }
+    left: 0; 
+  } }
+.carousel-container {
+  display: none;
+  position: relative; }
+  @media (min-width: 1200px) {
+    .carousel-container {
+      display: block; }
+}
+
+.carousel {
+  position: absolute;
+  right: 5rem;
+  top: 12rem; }
+
+img {
+  width: 45rem;
+  height: 25rem; }
+
+.carousel img {
+  display: none;
+  transition: all 0.8s; }
+
+.carousel img.is-active {
+  display: block; }
+
+.left {
+  background-color: #F1F1F1;
+  width: 69px;
+  height: 69px;
+  margin: -4.6rem 0 0 6rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.right {
+  background-color: #fff;
+  margin: -4.6rem 0 0 10.5rem;
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 .--phoneTablet {
   display: block;
@@ -238,16 +281,86 @@ table {
   text-decoration: none;
 }
 
-.homepage {
-  background-image: url("../styles/img/mook_filter.png");
-  background-repeat: no-repeat;
-  background-position: top right -19rem;
-  background-size: 42rem 59.4rem;
-  margin-left: 3rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 63rem;
+  @media (min-width: 600px) {
+    .homepage {
+      background-image: url("../styles/img/mook_filter.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      background-size: 42rem 59.4rem; } }
+  @media (min-width: 1200px) {
+    .homepage {
+      background-color: white;
+      background-image: none; } }
+  .homepage-wrapper {
+    height: 20%;
+    width: 38%;
+    z-index: 2; }
+    @media (min-width: 1200px) {
+      .homepage-wrapper {
+        background-color: rgba(255, 255, 255, 0.5); } }
+  .homepage-bar {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: black;
+    height: 0.4rem;
+    width: 77px; }
+  .homepage-title {
+    font-size: 4rem;
+    z-index: 99; }
+  .homepage-paragraph {
+    font-size: 1.4rem; }
+
+.about {
+  margin-bottom: 8rem;
+  height: 35rem; }
+  @media (min-width: 1200px) {
+    .about {
+      background-image: url("../styles/img/mook_filter.png");
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: 23rem 31.7rem; } }
+  .about-title {
+    margin-left: 3rem;
+    font-size: 2.4rem; }
+  .about-bar {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: black;
+    height: 0.4rem;
+    width: 77px; }
+  .about-paragraph {
+    width: 24.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.3rem; }
+    @media (min-width: 600px) {
+      .about-paragraph {
+        width: 35rem; } }
+    @media (min-width: 1200px) {
+      .about-paragraph {
+        margin-left: 7.8rem;
+        margin-right: 0rem;
+        width: 50rem; } }
+    .about-paragraph-content {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.2rem; }
+
+.tweets {
+  height: 35rem;
+  width: 100%; }
+  .tweets-title {
+    margin-left: 3rem;
+    font-size: 2.4rem; }
+  .tweets-bar {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: black;
+    height: 0.4rem;
+    width: 77px; }
 }
 @media (min-width: 600px) {
   .homepage {
@@ -330,43 +443,35 @@ table {
 .partners {
   background-color: #F7F7F7;
   height: 14rem;
-  width: 100%;
-}
-.partners-title {
-  padding-top: 2rem;
-  display: flex;
-  justify-content: center;
-  font-size: 2.4rem;
-}
-.partners-container {
-  margin-bottom: 2.5rem;
-  padding: 0 30rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.partners-container-aeroports {
-  height: 3.4rem;
-  width: 6rem;
-}
-.partners-container-fujifilm {
-  height: 1.5rem;
-  width: 7.7rem;
-}
-.partners-container-nikon {
-  height: 3.9rem;
-  width: 3.9rem;
-}
-.partners-copyrights {
-  border-top: 0.001rem solid #d3d3d3;
-}
-.partners-copyrights-content {
-  padding-top: 0.5rem;
-  display: flex;
-  justify-content: center;
-  font-size: 0.9rem;
-}
-
+  }
+  .partners-title {
+    padding-top: 1.6rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem; {
+  .partners-container {
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .partners-container-aeroports {
+      height: 3.4rem;
+      width: 6rem; }
+    .partners-container-fujifilm {
+      height: 1.5rem;
+      width: 7.7rem; }
+    .partners-container-nikon {
+      height: 3.9rem;
+      width: 3.9rem; }
+  .partners-copyrights {
+    border-top: 0.001rem solid #d3d3d3; }
+    .partners-copyrights-content {
+      padding-top: 0.5rem;
+      display: flex;
+      justify-content: center;
+      font-size: 0.9rem; }
+ 
 .articles {
   width: 85%;
   margin: 0 auto;
