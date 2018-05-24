@@ -415,15 +415,8 @@ table {
     margin: 0 15px;
   }
 }
-.articles-contentImg {
-  border-radius: 15px;
-}
-.articles-imgTitle {
-  position: absolute;
-  z-index: 2;
-}
-.articles-imgDesc {
-  position: absolute;
+.articles-imgContent {
+  cursor: pointer;
 }
 
 @font-face {
@@ -463,8 +456,8 @@ table {
 }
 .contact-form {
   background-color: black;
-  padding: 1.7rem 2rem;
-  border-radius: 5px;
+  padding: 33px 25px;
+  border-radius: 70px;
 }
 @media (min-width: 600px) {
   .contact-form {
@@ -560,11 +553,13 @@ table {
 }
 .modal-imgcontent {
   width: 100%;
-  height: 32%;
+  height: auto;
+  margin-bottom: 30px;
 }
 @media (min-width: 600px) {
   .modal-imgcontent {
     height: 65%;
+    margin: 0 45px;
   }
 }
 .modal img {
