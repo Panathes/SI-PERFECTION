@@ -20,6 +20,20 @@ $stmt->execute();
 </style>
 
 <h2><a href="../main.php">home</a></h2>
+
+
+<h2>Add Image</h2>
+
+<form action="do/doadd.php" enctype="multipart/form-data" method="post">
+    <input type="text" name="img" placeholder="image's url">
+    </br>
+    <input type="text" name="title" placeholder="image's title">
+    </br>
+    <input type="text" name="author" placeholder="image's author">
+    </br>
+    <input type="submit">
+</form>
+
 <table border="1">
     <tr>
         <th>ID</th>
@@ -39,15 +53,3 @@ $stmt->execute();
 
     <?php endwhile ?>
 </table>
-
-<h2>Add Image</h2>
-
-<form action="do/doadd.php" enctype="multipart/form-data" method="post">
-    <input type="text" name="img" placeholder="image's url">
-    </br>
-    <input type="text" name="title" placeholder="image's title">
-    </br>
-    <input type="text" name="author" placeholder="image's author">
-    </br>
-    <input type="submit">
-</form>

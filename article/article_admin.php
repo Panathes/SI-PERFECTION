@@ -21,25 +21,7 @@ $stmt->execute();
 </style>
 
 <h2><a href="../main.php">home</a></h2>
-<table >
-    <tr>
-        <th>ID</th>
-        <th>article</th>
-        <th>modifier</th>
-        <th>supprimer</th>
-    </tr>
-    <?php
-    while (false !== $row = $stmt->fetch(PDO::FETCH_ASSOC)) :?>
 
-        <tr>
-            <td><a href="article.php?id=<?=$row["id"]?>"><?=$row["id"]?></a></td>
-            <td><?=$row["title"]?></td>
-            <td><a href="edit.php?id=<?=$row["id"]?>">edit</a></td>
-            <td><a href="delete.php?id=<?=$row["id"]?>">delete</a></td>
-        </tr>
-
-    <?php endwhile ?>
-</table>
 
 <h2>Add</h2>
 
@@ -81,3 +63,23 @@ $stmt->execute();
     </br>
     <input type="submit">
 </form>
+
+<table >
+    <tr>
+        <th>ID</th>
+        <th>article</th>
+        <th>modifier</th>
+        <th>supprimer</th>
+    </tr>
+    <?php
+    while (false !== $row = $stmt->fetch(PDO::FETCH_ASSOC)) :?>
+
+        <tr>
+            <td><a href="article.php?id=<?=$row["id"]?>"><?=$row["id"]?></a></td>
+            <td><?=$row["title"]?></td>
+            <td><a href="edit.php?id=<?=$row["id"]?>">edit</a></td>
+            <td><a href="delete.php?id=<?=$row["id"]?>">delete</a></td>
+        </tr>
+
+    <?php endwhile ?>
+</table>

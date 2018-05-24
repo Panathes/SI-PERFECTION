@@ -18,6 +18,8 @@
                 <a href="compagnie/compagnie_admin.php"><h3>Gestion des compagnies</h3></a>
 
                 <a href="hundred/hundred_admin.php"><h3>Gestion des classements</h3></a>
+
+                <a href="twitter/twitter_admin.php"><h3>Gestion des comptes Twitter</h3></a>
             </div>
         </div>
     </body>

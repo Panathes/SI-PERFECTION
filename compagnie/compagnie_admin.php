@@ -21,6 +21,20 @@ $stmt->execute();
 </style>
 
 <h2><a href="../main.php">home</a></h2>
+
+
+<h2>Add</h2>
+
+<form action="do/doadd.php" enctype="multipart/form-data" method="post">
+    <input type="text" name="name" placeholder="nom de votre compagnie">
+    </br>
+    <input type="text" name="label" placeholder="signature de votre compagnie">
+    </br>
+    <input type="text" name="logo" placeholder="logo de votre compagnie">
+    </br>
+    <input type="submit">
+</form>
+
 <table border="1">
     <tr>
         <th>ID</th>
@@ -40,15 +54,3 @@ $stmt->execute();
 
     <?php endwhile ?>
 </table>
-
-<h2>Add</h2>
-
-<form action="do/doadd.php" enctype="multipart/form-data" method="post">
-    <input type="text" name="name" placeholder="nom de votre compagnie">
-    </br>
-    <input type="text" name="label" placeholder="signature de votre compagnie">
-    </br>
-    <input type="text" name="logo" placeholder="logo de votre compagnie">
-    </br>
-    <input type="submit">
-</form>

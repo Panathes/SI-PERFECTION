@@ -19,6 +19,20 @@ $stmt->execute();
 <?php include '../backoffice.css'; ?>
 </style>
 <h2><a href="../main.php">home</a></h2>
+
+
+<h2>Add Partenaire</h2>
+
+<form action="do/doadd.php" enctype="multipart/form-data" method="post">
+    <input type="text" name="name" placeholder="partenaire">
+    </br>
+    <input type="text" name="logo" placeholder="logo">
+    </br>
+    <input type="text" name="alt" placeholder="logo's alt">
+    </br>
+    <input type="submit">
+</form>
+
 <table border="1">
     <tr>
         <th>ID</th>
@@ -38,15 +52,3 @@ $stmt->execute();
 
     <?php endwhile ?>
 </table>
-
-<h2>Add Partenaire</h2>
-
-<form action="do/doadd.php" enctype="multipart/form-data" method="post">
-    <input type="text" name="name" placeholder="partenaire">
-    </br>
-    <input type="text" name="logo" placeholder="logo">
-    </br>
-    <input type="text" name="alt" placeholder="logo's alt">
-    </br>
-    <input type="submit">
-</form>
