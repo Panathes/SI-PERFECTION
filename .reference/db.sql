@@ -55,3 +55,13 @@ CREATE TABLE `compagnie` (
     `logo` VARCHAR(110),
     PRIMARY KEY (`id`)
     );
+
+CREATE TABLE `hundred` (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(110),
+    `adresse` VARCHAR(110),
+    `classement` VARCHAR(110),
+    `phone` VARCHAR(110),
+    `price` VARCHAR(110),
+    PRIMARY KEY (`id`)
+    );

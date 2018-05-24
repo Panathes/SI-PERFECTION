@@ -30,6 +30,10 @@ if (!isset($row['id'])) {
 }
 ?>
 
+<style media="screen">
+<?php include '../backoffice.css'; ?>
+</style>
+
 <a href="article_admin.php"><h4>go back</h4></a>
 
 <h2><?=$row["title"]?></h2>
@@ -56,6 +60,6 @@ $stmt->execute();
 $row2=$stmt->fetch(PDO::FETCH_ASSOC);
 
 ?>
-<p><?=$row2["name"]?></p>
+<p class="compagnieName"><?=$row2["name"]?></p>
 <p><?=$row2["logo"]?></p>
 <p><?=$row2["label"]?></p>
