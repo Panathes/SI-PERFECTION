@@ -7,12 +7,32 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
     <body>
+      <section class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-wrap">
+            <img src="styles/img/img1.jpg" alt="">
+            <img src="styles/img/img2.jpg" alt="">
+            <img src="styles/img/img5.jpg" alt="">
+            <img src="styles/img/img6.jpg" alt="">
+          </div>
+          <div class="left"><svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9 0L0 5L9 9" transform="translate(4 2) scale(2)" stroke="black"/>
+          </svg>
+          </div>
+          <div class="right">
+            <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9 0L0 5L9 9" transform="translate(20 2) scale(-2 2)" stroke="black"/>
+          </svg>
+          </div>
+        </div>
+      </section>
       <section class="homepage">
-        <div class="homepage-background"><img class="homepage-background-img" src="'../styles/img/magazine.jpg'" alt=""></div>
-        <h1 class="homepage-title">Une années de voyages</h1>
-        <div class="homepage-bar"></div>
-        <p class="homepage-paragraph">Une revue pour les gens qui <br />
-          aime voyager et découvir</p>
+        <div class="homepage-wrapper">
+          <h1 class="homepage-title">Une années de voyages</h1>
+          <div class="homepage-bar"></div>
+          <p class="homepage-paragraph">Une revue pour les gens qui <br />
+            aime voyager et découvir</p>
+        </div>
     </section>
 
     <section class="about">
@@ -47,6 +67,37 @@
       </div>
     </footer>
 
+    <script>
+      var btn_left = document.querySelector('.left');
+      var btn_right = document.querySelector('.right');
+      var imgs = document.querySelectorAll('.carousel img');
 
+      var counter = Math.floor(Math.random() * imgs.length);
+      imgs[counter].classList.add('is-active');
+
+      btn_left.addEventListener('click', function() {
+        imgs[counter].classList.remove('is-active');
+
+        if (counter > 0) {
+          counter--;
+        } else {
+          counter = imgs.length - 1;
+        }
+
+        imgs[counter].classList.add('is-active');
+      });
+
+      btn_right.addEventListener('click', function() {
+        imgs[counter].classList.remove('is-active');
+
+        if (counter < imgs.length - 1) {
+          counter++;
+        } else {
+          counter = 0;
+        }
+
+        imgs[counter].classList.add('is-active');
+      });
+    </script>
   </body>
 </html>
