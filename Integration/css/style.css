@@ -175,7 +175,7 @@ table {
 .carousel {
   position: absolute;
   right: 5rem;
-  top: 8rem; }
+  top: 12rem; }
 
 img {
   width: 45rem;
@@ -231,11 +231,11 @@ img {
       background-image: none; } }
   .homepage-wrapper {
     height: 20%;
-    width: 40%;
+    width: 38%;
     z-index: 2; }
     @media (min-width: 1200px) {
       .homepage-wrapper {
-        background-color: white; } }
+        background-color: rgba(255, 255, 255, 0.5); } }
   .homepage-bar {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
