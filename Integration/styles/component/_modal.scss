@@ -40,9 +40,11 @@
 }
 &-imgcontent {
   width: 100%;
-  height: 32%;
+  height: auto;
+  margin-bottom: 30px;
   @include for-size ('tablet-portrait-up'){
     height: 65%;
+    margin: 0 45px;
     }
 }
 img {
@@ -65,7 +67,7 @@ img {
   font-family: "Montserrat300";
 }
 &-title{
-  font-family: "LeagueSpartan-Bold"
+  font-family: "LeagueSpartan-Bold";
 }
 &-legend{
   color: #9C9C9C;
