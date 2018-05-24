@@ -45,14 +45,8 @@
       margin: 0 15px;
     }
   }
-  &-contentImg{
-    border-radius:15px ;
-  }
-  &-imgTitle{
-    position: absolute;
-    z-index: 2;
-  }
-  &-imgDesc{
-    position: absolute;
+
+  &-imgContent{
+    cursor: pointer;
   }
 }

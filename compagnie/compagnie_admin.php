@@ -15,6 +15,11 @@ $stmt = $conn->prepare($sql);
 $stmt->execute();
 
 ?>
+
+<style media="screen">
+<?php include '../backoffice.css'; ?>
+</style>
+
 <h2><a href="../main.php">home</a></h2>
 <table border="1">
     <tr>

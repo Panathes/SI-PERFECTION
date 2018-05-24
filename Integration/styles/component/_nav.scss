@@ -184,3 +184,38 @@ $button-width: 35px;
     left: 0;
   }
 }
+.--phoneTablet{
+  display: block;
+  @include for-size('desktop-up'){
+    display: none;
+  }
+}
+
+.menuDesktop{
+  display: none;
+  @include for-size('desktop-up'){
+    display: block;
+  }
+}
+
+
+// Desktop menu
+
+.menuDesktop{
+  top: 0;
+  right: 0;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: black;
+}
+.ulDesktop{
+  display: flex;
+  justify-content: flex-end;
+}
+.liDesktop, .liLinks{
+  font-size: 22px;
+  margin: 40px 30px 0 0;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
