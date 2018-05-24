@@ -11,7 +11,7 @@
 
 
 .contact{
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 0 2rem;
 
   &-titlesContainer{
@@ -20,7 +20,7 @@
     }
   }
   &-titles{
-  font-size: 7rem;
+  font-size: 3rem;
   font-family: "LeagueSpartan-Bold"
   }
   &-container{
@@ -66,8 +66,8 @@
     display: inline-block;
     margin: 2%;
   }
-  &-para{font-size: 1.7rem;
-    line-height: 4rem;
+  &-para{font-size: 1rem;
+    line-height: 2.5rem;
     font-family: "Montserrat300";
   }
   &-addresslegend{

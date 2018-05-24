@@ -11,7 +11,18 @@
 </head>
 
 <body>
-  <div class="burgermenuContainer">
+  <div class="menuDesktop">
+    <nav class="navDesktop">
+      <ul class="ulDesktop">
+        <li class="liDesktop"><a href="../../index.html" class="liLinks">Accueil</a></li>
+        <li class="liDesktop"><a href="./articles.html" class="liLinks">Article</a></li>
+        <li class="liDesktop"><a href="" class="liLinks">Top 100</a></li>
+        <li class="liDesktop"><a href="./contact.html" class="liLinks">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="burgermenuContainer --phoneTablet">
     <div class="button_container" id="toggle">
       <span class="top --pos"></span>
       <span class="middle --pos"></span>
@@ -21,10 +32,10 @@
     <div class="overlay" id="overlay">
       <nav class="overlay-menu --nav">
         <ul>
-          <li><a class="container-a" href="#">Accueil</a></li>
-          <li><a class="container-a" href="#">Article</a></li>
+          <li><a class="container-a" href="../../index.html">Accueil</a></li>
+          <li><a class="container-a" href="./articles.html">Article</a></li>
           <li><a class="container-a" href="#">Top 100</a></li>
-          <li><a class="container-a" href="#">Contact</a></li>
+          <li><a class="container-a" href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -48,23 +59,51 @@
     </div>
     <div class="articles-imgContainer">
       <div class="articles-imgContentcontainer">
-        <a href="#" class="articles-imgLink"><img src="../img/sampleimg2.svg" alt="img" class="articles-imgContent"></a>
-        <a href="#" class="articles-imgLink"><img src="../img/sampleimg3.svg" alt="img" class="articles-imgContent"></a>
-        <a href="#" class="articles-imgLink"><img src="../img/sampleimg4.svg" alt="img" class="articles-imgContent"></a>
-        <a href="#" class="articles-imgLink"><img src="../img/sampleimg5.svg" alt="img" class="articles-imgContent"></a>
-        <a href="#" class="articles-imgLink"><img src="../img/sampleimg6.svg" alt="img" class="articles-imgContent"></a>
-        <a href="#" class="articles-imgLink"><img src="../img/sampleimg2.svg" alt="img" class="articles-imgContent"></a>
-        <a href="#" class="articles-imgLink"><img src="../img/sampleimg3.svg" alt="img" class="articles-imgContent"></a>
-        <a href="#" class="articles-imgLink"><img src="../img/sampleimg4.svg" alt="img" class="articles-imgContent"></a>
+        <a href="#" onclick="modal()" class="articles-imgLink"><img src="../img/sampleimg1.png" alt="img" class="articles-imgContent"></a>
+        <a href="#" onclick="modal()" class="articles-imgLink"><img src="../img/sampleimg2.png" alt="img" class="articles-imgContent"></a>
+        <a href="#" onclick="modal()" class="articles-imgLink"><img src="../img/sampleimg3.png" alt="img" class="articles-imgContent"></a>
+        <a href="#" onclick="modal()" class="articles-imgLink"><img src="../img/sampleimg4.png" alt="img" class="articles-imgContent"></a>
+        <a href="#" onclick="modal()" class="articles-imgLink"><img src="../img/sampleimg1.png" alt="img" class="articles-imgContent"></a>
+        <a href="#" onclick="modal()" class="articles-imgLink"><img src="../img/sampleimg2.png" alt="img" class="articles-imgContent"></a>
+        <a href="#" onclick="modal()" class="articles-imgLink"><img src="../img/sampleimg3.png" alt="img" class="articles-imgContent"></a>
+        <a href="#" onclick="modal()" class="articles-imgLink"><img src="../img/sampleimg4.png" alt="img" class="articles-imgContent"></a>
         <a href="#" class="articles-imgLink"><img src="../img/sampleview.svg" alt="img" class="articles-imgContent"></a>
+      </div>
+    </div>
+  </div>
+  <div class="modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <div class="modal-imgcontent">
+        <img src="../img/img1.jpg" alt="">
+      </div>
+      <div class="modal-contentContainer">
+        <div class="modal-leftContent">
+          <h3 class="modal-title">Titre de L'article</h3><br>
+          <p class="modal-para">auteur</p><br>
+          <p class="modal-para"><span class="modal-legend">lieu</span></p><br>
+          <p class="modal-para">date</p><br>
+        </div>
+        <div class="modal-rightContent">
+          <p class="modal-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
       </div>
     </div>
   </div>
   <script src="../../index.js"></script>
   <script>
-    $('#toggle').click(function() {
-      $(this).toggleClass('active');
-      $('#overlay').toggleClass('open');
+    var btn = document.querySelector('articles-imgContent');
+    var modal = document.querySelector('.modal');
+    var overlay = document.querySelector('.modal-overlay');
+
+
+    btn.addEventListener('click', function() {
+      modal.style.display = 'block';
+    });
+
+    overlay.addEventListener('click', function() {
+      modal.style.display = '';
     });
   </script>
 </body>
