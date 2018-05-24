@@ -65,3 +65,10 @@ CREATE TABLE `hundred` (
     `price` VARCHAR(110),
     PRIMARY KEY (`id`)
     );
+
+CREATE TABLE `twitter` (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(110),
+    `link` VARCHAR(255),
+    PRIMARY KEY (`id`)
+    );

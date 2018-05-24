@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="888b7db9-103f-409e-a25b-4a0bac9d7f69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.reference/db.sql" afterPath="$PROJECT_DIR$/.reference/db.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article/article.php" afterPath="$PROJECT_DIR$/article/article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article/article_admin.php" afterPath="$PROJECT_DIR$/article/article_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compagnie/compagnie_admin.php" afterPath="$PROJECT_DIR$/compagnie/compagnie_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgbox/img_admin.php" afterPath="$PROJECT_DIR$/imgbox/img_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partenaire/partenaire_admin.php" afterPath="$PROJECT_DIR$/partenaire/partenaire_admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../1année2voyage/twitter/cequejeveux.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1année2voyage/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../1année2voyage/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1année2voyage/.reference/db.sql" afterPath="$PROJECT_DIR$/../1année2voyage/.reference/db.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1année2voyage/article/article_admin.php" afterPath="$PROJECT_DIR$/../1année2voyage/article/article_admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1année2voyage/compagnie/compagnie_admin.php" afterPath="$PROJECT_DIR$/../1année2voyage/compagnie/compagnie_admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1année2voyage/hundred/hundred_admin.php" afterPath="$PROJECT_DIR$/../1année2voyage/hundred/hundred_admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1année2voyage/imgbox/img_admin.php" afterPath="$PROJECT_DIR$/../1année2voyage/imgbox/img_admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1année2voyage/main.php" afterPath="$PROJECT_DIR$/../1année2voyage/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1année2voyage/partenaire/partenaire_admin.php" afterPath="$PROJECT_DIR$/../1année2voyage/partenaire/partenaire_admin.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,64 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="db.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.reference/db.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="66" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hundred_admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hundred/hundred_admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <marker date="1527161549000" expanded="true" signature="39:91" ph="SELECT `id`,... hundred" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hundred/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-              <folding>
-                <marker date="1527162954000" expanded="true" signature="118:221" ph="SELECT `id`,... hundred" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dodelete.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hundred/do/dodelete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding>
-                <marker date="1527162954000" expanded="true" signature="59:125" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -83,59 +28,62 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../1année2voyage" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db.php" />
-        <option value="$PROJECT_DIR$/do/doadd.php" />
-        <option value="$PROJECT_DIR$/edit.php" />
-        <option value="$PROJECT_DIR$/do/doedit.php" />
-        <option value="$PROJECT_DIR$/admin.php" />
-        <option value="$PROJECT_DIR$/delete.php" />
-        <option value="$PROJECT_DIR$/do/dodelete.php" />
-        <option value="$PROJECT_DIR$/article/admin.php" />
-        <option value="$PROJECT_DIR$/main_admin.php" />
-        <option value="$PROJECT_DIR$/article/do/dodelete.php" />
-        <option value="$PROJECT_DIR$/imgbox/img_admin.php" />
-        <option value="$PROJECT_DIR$/imgbox/do/doadd.php" />
-        <option value="$PROJECT_DIR$/imgbox/edit.php" />
-        <option value="$PROJECT_DIR$/imgbox/do/doedit.php" />
-        <option value="$PROJECT_DIR$/imgbox/do/dodelete.php" />
-        <option value="$PROJECT_DIR$/imgbox/delete.php" />
-        <option value="$PROJECT_DIR$/article/delete.php" />
-        <option value="$PROJECT_DIR$/partenaire/partenaire_admin.php" />
-        <option value="$PROJECT_DIR$/partenaire/do/doadd.php" />
-        <option value="$PROJECT_DIR$/partenaire/do/doedit.php" />
-        <option value="$PROJECT_DIR$/partenaire/edit.php" />
-        <option value="$PROJECT_DIR$/partenaire/delete.php" />
-        <option value="$PROJECT_DIR$/partenaire/do/dodelete.php" />
-        <option value="$PROJECT_DIR$/contact.php" />
-        <option value="$PROJECT_DIR$/send_message.php" />
-        <option value="$PROJECT_DIR$/message.php" />
-        <option value="$PROJECT_DIR$/compagnie/article.php" />
-        <option value="$PROJECT_DIR$/compagnie/article_admin.php" />
-        <option value="$PROJECT_DIR$/compagnie/do/dodelete.php" />
-        <option value="$PROJECT_DIR$/compagnie/compagnie_admin.php" />
-        <option value="$PROJECT_DIR$/compagnie/edit.php" />
-        <option value="$PROJECT_DIR$/compagnie/do/doadd.php" />
-        <option value="$PROJECT_DIR$/compagnie/do/doedit.php" />
-        <option value="$PROJECT_DIR$/compagnie/delete.php" />
-        <option value="$PROJECT_DIR$/article/article_admin.php" />
-        <option value="$PROJECT_DIR$/article/do/doadd.php" />
-        <option value="$PROJECT_DIR$/article/article.php" />
-        <option value="$PROJECT_DIR$/article/edit.php" />
-        <option value="$PROJECT_DIR$/article/do/doedit.php" />
-        <option value="$PROJECT_DIR$/.reference/db.sql" />
-        <option value="$PROJECT_DIR$/hundred/do/doadd.php" />
-        <option value="$PROJECT_DIR$/main.php" />
-        <option value="$PROJECT_DIR$/backoffice.css" />
-        <option value="$PROJECT_DIR$/hundred/hundred_admin.php" />
-        <option value="$PROJECT_DIR$/hundred/do/doedit.php" />
-        <option value="$PROJECT_DIR$/hundred/edit.php" />
-        <option value="$PROJECT_DIR$/hundred/delete.php" />
-        <option value="$PROJECT_DIR$/hundred/do/dodelete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/delete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/do/dodelete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/main_admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/do/dodelete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/imgbox/do/doadd.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/imgbox/edit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/imgbox/do/doedit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/imgbox/do/dodelete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/imgbox/delete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/delete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/partenaire/do/doadd.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/partenaire/do/doedit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/partenaire/edit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/partenaire/delete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/partenaire/do/dodelete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/contact.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/send_message.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/message.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/article.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/article_admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/do/dodelete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/edit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/do/doadd.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/do/doedit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/delete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/do/doadd.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/article.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/edit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/do/doedit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/hundred/do/doadd.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/backoffice.css" />
+        <option value="$PROJECT_DIR$/../1année2voyage/hundred/do/doedit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/hundred/edit.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/hundred/delete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/hundred/do/dodelete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/test.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/.reference/db.sql" />
+        <option value="$PROJECT_DIR$/../1année2voyage/twitter/do/dodelete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/twitter/delete.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/main.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/twitter/twitter_admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/twitter/do/doadd.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/twitter/affichertout.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/twitter/cequejeveux.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/article/article_admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/compagnie/compagnie_admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/hundred/hundred_admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/imgbox/img_admin.php" />
+        <option value="$PROJECT_DIR$/../1année2voyage/partenaire/partenaire_admin.php" />
       </list>
     </option>
   </component>
@@ -146,10 +94,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../1année2voyage/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1436" />
     <option name="height" value="877" />
@@ -170,30 +118,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="1année2voyage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1année2voyage" type="b2602c69:ProjectViewProjectNode" />
               <item name="1année2voyage" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="1année2voyage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1année2voyage" type="b2602c69:ProjectViewProjectNode" />
               <item name="1année2voyage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hundred" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="1année2voyage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1année2voyage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hundred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="do" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partenaire" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,18 +168,18 @@
       <workItem from="1526991796251" duration="2064000" />
       <workItem from="1526994360019" duration="4881000" />
       <workItem from="1527063301881" duration="12558000" />
-      <workItem from="1527153482197" duration="4654000" />
+      <workItem from="1527153482197" duration="5426000" />
+      <workItem from="1527168950999" duration="4131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24157000" />
+    <option name="totallyTimeSpent" value="29060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1436" height="877" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26040173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26398852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -269,40 +211,29 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/do/doadd.php" />
-    <entry file="file://$PROJECT_DIR$/do/doedit.php" />
-    <entry file="file://$PROJECT_DIR$/edit.php" />
-    <entry file="file://$PROJECT_DIR$/admin.php" />
-    <entry file="file://$PROJECT_DIR$/do/dodelete.php" />
-    <entry file="file://$PROJECT_DIR$/delete.php" />
-    <entry file="file://$PROJECT_DIR$/imgbox/admin.php" />
-    <entry file="file://$PROJECT_DIR$/article/admin.php" />
-    <entry file="file://$PROJECT_DIR$/main_admin.php" />
-    <entry file="file://$PROJECT_DIR$/article/do/dodelete.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/main_admin.php" />
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/do/dodelete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <marker date="1527065070000" expanded="true" signature="59:125" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgbox/do/doedit.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/imgbox/do/doedit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgbox/do/doadd.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/imgbox/do/doadd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgbox/edit.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/imgbox/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
@@ -312,7 +243,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgbox/delete.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/imgbox/delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
@@ -322,29 +253,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgbox/img_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgbox/do/dodelete.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/imgbox/do/dodelete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partenaire/do/doedit.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/partenaire/do/doedit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partenaire/edit.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/partenaire/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
@@ -352,15 +275,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partenaire/partenaire_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partenaire/delete.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/partenaire/delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
@@ -368,14 +283,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partenaire/do/dodelete.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/partenaire/do/dodelete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/delete.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
@@ -385,39 +300,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partenaire/do/doadd.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/partenaire/do/doadd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/send_message.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/send_message.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/message.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compagnie/article_admin.php" />
-    <entry file="file://$PROJECT_DIR$/compagnie/article.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/article_admin.php" />
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
@@ -425,7 +337,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compagnie/edit.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
@@ -433,21 +345,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compagnie/do/doadd.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/do/doadd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compagnie/do/doedit.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/do/doedit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compagnie/delete.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
@@ -455,30 +367,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compagnie/do/dodelete.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/do/dodelete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compagnie/compagnie_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/edit.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" column="75" lean-forward="false" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
@@ -486,42 +382,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/do/doadd.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/do/doadd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/article_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <marker date="1527151767000" expanded="true" signature="39:92" ph="SELECT `id`,... article" />
-            <marker date="1527151767000" expanded="true" signature="945:1013" ph="SELECT `id`,... compagnie" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hundred/article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hundred/compagnie_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/hundred/article.php" />
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/hundred/compagnie_admin.php" />
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
@@ -529,96 +399,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backoffice.css">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/backoffice.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.reference/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="66" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/do/doedit.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/do/doedit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <marker date="1527146965000" expanded="true" signature="320:507" ph="UPDATE `arti... " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hundred/do/doadd.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/hundred/do/doadd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <marker date="1527161367000" expanded="true" signature="386:513" ph="INSERT INTO `compagnie`... " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hundred/do/doedit.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/hundred/do/doedit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <marker date="1527162564000" expanded="true" signature="382:610" ph="UPDATE `hund... " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hundred/edit.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/hundred/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <marker date="1527162893000" expanded="true" signature="119:305" ph="SELECT `id`,... hundred" />
+            <marker date="1527163588000" expanded="true" signature="119:305" ph="SELECT `id`,... hundred" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hundred/hundred_admin.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/hundred/do/dodelete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1527161549000" expanded="true" signature="39:91" ph="SELECT `id`,... hundred" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hundred/delete.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/hundred/delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
-            <marker date="1527162954000" expanded="true" signature="118:221" ph="SELECT `id`,... hundred" />
+            <marker date="1527163588000" expanded="true" signature="118:221" ph="SELECT `id`,... hundred" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hundred/do/dodelete.php">
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/test.php" />
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/twitter/do/dodelete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
-            <marker date="1527162954000" expanded="true" signature="59:125" ph="DELETE FROM " />
+            <marker date="1527171402000" expanded="true" signature="59:125" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/twitter/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+          <folding>
+            <marker date="1527171614000" expanded="true" signature="118:221" ph="SELECT `id`,... twitter" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <marker date="1527163588000" expanded="true" signature="117:320" ph="SELECT `id`,... article" />
+            <marker date="1527163588000" expanded="true" signature="803:947" ph="SELECT `id`,... compagnie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/twitter/twitter_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <marker date="1527171839000" expanded="true" signature="39:91" ph="SELECT `id`,... twitter" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/twitter/do/doadd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <marker date="1527171994000" expanded="true" signature="217:277" ph="INSERT INTO `twitter`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/twitter/affichertout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/twitter/displayTwitter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1527172944000" expanded="true" signature="43:133" ph="SELECT `id`,... twitter" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/twitter/cequejeveux.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/.reference/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="73" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="83" lean-forward="false" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/article/article_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+          <folding>
+            <marker date="1527173292000" expanded="true" signature="39:92" ph="SELECT `id`,... article" />
+            <marker date="1527173292000" expanded="true" signature="424:492" ph="SELECT `id`,... compagnie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/compagnie/compagnie_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding>
+            <marker date="1527173319000" expanded="true" signature="39:93" ph="SELECT `id`,... compagnie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/hundred/hundred_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding>
+            <marker date="1527173347000" expanded="true" signature="39:91" ph="SELECT `id`,... hundred" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/imgbox/img_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding>
+            <marker date="1527173369000" expanded="true" signature="39:91" ph="SELECT `id`,... imgbox" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1année2voyage/partenaire/partenaire_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding>
+            <marker date="1527173388000" expanded="true" signature="39:94" ph="SELECT `id`,... partenaire" />
           </folding>
         </state>
       </provider>
